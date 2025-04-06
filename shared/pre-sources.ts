@@ -189,19 +189,6 @@ export const originSources = {
       },
     },
   },
-  "xueqiu": {
-    name: "雪球",
-    color: "blue",
-    home: "https://xueqiu.com",
-    column: "finance",
-    sub: {
-      hotstock: {
-        title: "热门股票",
-        interval: Time.Realtime,
-        type: "hottest",
-      },
-    },
-  },
   "gelonghui": {
     name: "格隆汇",
     color: "blue",
@@ -310,25 +297,6 @@ export const originSources = {
     color: "blue",
     type: "hottest",
     home: "https://www.nowcoder.com",
-  },
-  "linuxdo": {
-    name: "LINUX DO",
-    column: "tech",
-    color: "slate",
-    home: "https://linux.do/",
-    disable: "cf",
-    sub: {
-      latest: {
-        title: "最新",
-        home: "https://linux.do/latest",
-      },
-      hot: {
-        title: "今日最热",
-        type: "hottest",
-        interval: Time.Common,
-        home: "https://linux.do/hot",
-      },
-    },
   },
   "ghxi": {
     name: "果核剥壳",
